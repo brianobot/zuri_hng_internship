@@ -1,12 +1,12 @@
 from fastapi import FastAPI
 
-from datetime import datetime ,timezone
+from datetime import datetime, timezone
 
 app = FastAPI()
 
 
 @app.get("/api")
-async def read_root(slack_name: str = "Brian Obot", track: str = "backend"):
+async def home(slack_name: str = "Brian Obot", track: str = "backend"):
     now = datetime.now()
     return {
         "slack_name": slack_name,
