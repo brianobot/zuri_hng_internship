@@ -13,7 +13,7 @@ async def read_root(slack_name: str = "Brian Obot", track: str = "backend"):
         "current_day": now.strftime("%A"),
         "utc_time": datetime.now(timezone.utc),
         "track": track,
-        "github_file_url": "sdfisdofsniofsdnofsdf",
-        "github_repo_url": "snfsidnfsuifsnfsndfisdf",
+        "github_file_url": "https://github.com/brianobot/zuri_hng_internship/blob/master/task_one/main.py",
+        "github_repo_url": "https://github.com/brianobot/zuri_hng_internship",
         "status_code": 200,
     }
