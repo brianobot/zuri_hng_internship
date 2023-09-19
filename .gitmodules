@@ -1,0 +1,3 @@
+[submodule "task_two"]
+	path = task_two
+	url = https://github.com/brianobot/zuri_internship_task_2.git
